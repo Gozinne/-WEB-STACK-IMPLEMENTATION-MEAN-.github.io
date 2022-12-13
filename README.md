@@ -510,13 +510,14 @@ Now a new port **3300** should be added to **inbound rules** under **security gr
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 ***
+This is how your WebBook Register Application will look in the browser:
 <img
   src= "https://user-images.githubusercontent.com/80969889/207310692-db592413-cced-424e-9c82-3bd41d978585.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 ***
-This is how your WebBook Register Application will look in the browser:
+
 
 
 
