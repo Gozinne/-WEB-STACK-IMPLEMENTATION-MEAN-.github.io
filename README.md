@@ -147,22 +147,21 @@ nvm install 10.9.0
 nvm ls
 ```
 The output should look something like this:
-`
->      v10.9.0
-       v12.16.3
-        v14.2.0
-default -> node (-> v14.2.0)
-node -> stable (-> v14.2.0) (default)
-stable -> 14.2 (-> v14.2.0) (default)
-iojs -> N/A (default)
-unstable -> N/A (default)
-lts/* -> lts/erbium (-> v12.16.3)
-lts/argon -> v4.9.1 (-> N/A)
-lts/boron -> v6.17.1 (-> N/A)
-lts/carbon -> v8.17.0 (-> N/A)
-lts/dubnium -> v10.20.1 (-> N/A)
-lts/erbium -> v12.16.3
-`
+`>      v10.9.0`
+      ` v12.16.3`
+        `v14.2.0`
+`default -> node (-> v14.2.0)`
+`node -> stable (-> v14.2.0) (default)`
+`stable -> 14.2 (-> v14.2.0) (default)`
+`iojs -> N/A (default)`
+`unstable -> N/A (default)`
+`lts/* -> lts/erbium (-> v12.16.3)`
+`lts/argon -> v4.9.1 (-> N/A)`
+`lts/boron -> v6.17.1 (-> N/A)`
+`lts/carbon -> v8.17.0 (-> N/A)`
+`lts/dubnium -> v10.20.1 (-> N/A)`
+`lts/erbium -> v12.16.3`
+
 // To change the currently active version enter
 ```
 nvm use 12.16.3
