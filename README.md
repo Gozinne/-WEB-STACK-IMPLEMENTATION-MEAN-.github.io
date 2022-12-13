@@ -59,6 +59,13 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207307637-48f81e5b-bb53-424e-8b57-e9de4cd5dbb5.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 There are three ways to install Node.js and npm on Ubuntu 20.04:
 
 * Install Node.js and npm from the Ubuntu repository 
@@ -184,10 +191,24 @@ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/
 ```
 sudo apt install -y mongodb
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207308045-273b90dc-96eb-43ca-9f5e-84bda6200b0e.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // Start the server
 ```
 sudo service mongodb start
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207311096-8c21c70c-edcd-477c-bef5-e8267146c6cf.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // Verify that the service is up and running
 ```
 sudo systemctl status mongodb
@@ -207,6 +228,13 @@ mkdir Books && cd Books
 ```
 npm init
 ``` 
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207308337-895f52c2-5028-4dfc-8c67-ac248c2de430.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // Add a file to it named server.js
 ```
 vi server.js
@@ -224,6 +252,14 @@ app.listen(app.get('port'), function() {
     console.log('Server up: http://localhost:' + app.get('port'));
 });
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207309148-1be39f4f-12fb-47c4-a658-e0146216e78b.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
+
 ### Install ExpressJs and set up routes to the server
 
 Mongoose package which provides a straightforward, [schema](vhttps://www.ibm.com/cloud/learn/database-schema)-based solution to model the application data. Also to establish a schema for the database to store data of the book register.
@@ -240,7 +276,14 @@ mkdir apps && cd apps
 ```
 vi routes.js
 ```  
-/ Copy and paste the code below into routes.js
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207308597-dd48e885-03d2-486c-83ca-99d19a9435b2.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
+// Copy and paste the code below into routes.js
 ```
 var Book = require('./models/book');
 module.exports = function(app) {
@@ -280,6 +323,13 @@ module.exports = function(app) {
   });
 };
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207309323-df5a7f5f-c81e-45d2-b4c1-1097f418e554.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // In the ‘apps’ folder, create a folder named models
 ```
 mkdir models && cd models
@@ -305,6 +355,13 @@ var Book = mongoose.model('Book', bookSchema);
 module.exports = mongoose.model('Book', bookSchema);
 ```
 
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207309425-b6628bbb-6d2b-4764-82ab-98861838a982.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
+
 ## Frontend Installation
 ### Access the routes with AngularJS
 
@@ -320,6 +377,13 @@ mkdir public && cd public
 ```
 vi script.js
 ``` 
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207309805-f0338b3b-9984-4465-8839-608680af5c0d.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // Copy and paste the Code below (controller configuration defined) into the script.js file
 ```
 var app = angular.module('myApp', []);
@@ -360,6 +424,13 @@ app.controller('myCtrl', function($scope, $http) {
   };
 });
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207310338-3b61646b-1a6a-4684-9d7e-b14f8a5c2e4f.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // In the public folder, create a file named index.html
 ```
 vi index.html
@@ -417,6 +488,13 @@ vi index.html
   </body>
 </html>
 ```
+
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207310436-f4114590-cd83-49c3-8c4c-cde85a485449.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 // Change the directory back up to Books
 ```
 cd ..
@@ -426,7 +504,18 @@ cd ..
 node server.js
 ```
 Now a new port **3300** should be added to **inbound rules** under **security groups** on the EC2 instance in use for the above result to occur: http:public-IP:3300
-
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207310620-a0e1f132-0ada-4149-97a4-6dab47ff1754.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
+<img
+  src= "https://user-images.githubusercontent.com/80969889/207310692-db592413-cced-424e-9c82-3bd41d978585.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+***
 This is how your WebBook Register Application will look in the browser:
 
 
