@@ -14,7 +14,7 @@ MEAN is a JavaScript application that runs from client to server to a database.
 The MEAN architecture is designed to make working with JSON and developing web apps in JavaScript as simple as possible.
 
 <img
-  src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mongodb.com%2Fbasics%2Ftechnology-stack&psig=AOvVaw1LjD4RN_OVib4v-UOUSeh2&ust=1671010605978000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDDtOGl9vsCFQAAAAAdAAAAABAE"
+  src="https://user-images.githubusercontent.com/80969889/207283053-7f858cd9-610b-4652-ae44-7cebc70de0a2.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
